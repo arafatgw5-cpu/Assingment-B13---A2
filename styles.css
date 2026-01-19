@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+}
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+.navber{
+width: 100%;
+max-width: 1600px;
+margin: 0 auto;
+  background-color: #412567;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 200px;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.menu-icon{
+width: 24px;
+height: 24px;
+  display: none;
+  color: white;
+}
+@media screen and (max-width: 576px){
+/* navber */
+  .navber{
+    padding: 16px 20px;
+  }
+  .nav-links{
+    display: none;
+  }
+  .nav-img2{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+
+  #nav-img1 img{
+    width: 120px;
+  }
+}
+.hero{
+  min-height: 100vh;
+  background: url(./assets/hero-bg.png) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.hero-content{
+  max-width: 600px;
+}
+.circle-content{
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 101px auto 30px;
+}
+.circle{
+  width: 100%;
+  height: 100%;
+}
+.mic{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  background-color: ;
+}
+.badge{
+  position: absolute;
+  top: 50px;
+  right: -10px;
+  background: #22ff88;
+  color: #000;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.badge:hover{
+  color: #250808;
+  background-color: #ee1d1d;
+}
+.hero h1{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p{
+  font-size: 16px;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+.hero-buttons{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.hero-btn{
+  display: inline flex;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-spotify{
+  background: none;
+  
+  border: none;
+}
+
+.btn-sub{
+  background: none;
+ border: none;
+ background: transparent;
+ border: 1px solid #2bff88 ;
+ transition: all 0.3s ease;
+}
+.btn-sub:hover{
+  background-color: #a82558;
+  color: #000;
+  transform: scale(1.05);
+}
+@media screen and (max-width:576px) {
+ .circle-content{
+  width: 160px;
+  height: 160px;
+ }
+ .mic{
+  width: 60px;
+ }
+ .hero-content h1{
+  font-size: 32px;
+
+ }
+ .hero-content p{
+  font-size: 14px;
+ }
+ .hero-btn{
+  flex-direction: column;
+ }
+  
+}
