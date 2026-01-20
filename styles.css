@@ -114,8 +114,9 @@ height: 24px;
 }
 
 .hero-btn{
+  gap: 10px;
   display: inline flex;
-  padding: 12px 20px;
+  padding: 12px 5px;
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -129,10 +130,11 @@ height: 24px;
 }
 
 .btn-sub{
+  /* margin-right: 10px; */
   background: none;
  border: none;
  background: transparent;
- border: 1px solid #2bff88 ;
+ /* border: 1px solid #2bff88 ; */
  transition: all 0.3s ease;
 }
 .btn-sub:hover{
@@ -319,7 +321,7 @@ background: rgba(53, 17, 101, 0.4);
 
 .episodes-section{
   padding-top: 100px;
-  background: rgba(26, 11, 46, 1);;
+  background: rgba(26, 11, 46, 1);
   color: white;
 }
 .episodes-container{
@@ -370,6 +372,59 @@ margin-bottom: 12px;
 @media screen and (max-width:576px) {
   .episodes-grid{
     grid-template-columns: 1fr;
+  }
+  
+}
+                     /* Meet the Host */
+
+.host-section{
+  color: white;
+  background: 
+rgba(26, 11, 46, 1);
+}
+.host-container{
+  max-width: 1100px;
+  margin: auto;
+}
+.host-title{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.host-card{
+  background: #533C72;
+  border-radius: 30px;
+  padding: 50px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.host-info h3{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.host-info p{
+  margin-bottom: 16px;
+}
+.host-socials{
+  display: flex;
+  gap: 10px;
+}
+.host-socials img:hover{
+  width: 30px;
+  background-color: #b92626;
+
+}
+/* RESPONSIVE */
+@media screen and (max-width:576px) {
+  .host-card{
+    flex-direction: column;
+    text-align: center;
+  }
+  .host-socials{
+    justify-content: center;
   }
   
 }
