@@ -81,7 +81,6 @@ height: 24px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80px;
-  background-color: ;
 }
 .badge{
   position: absolute;
@@ -260,8 +259,8 @@ padding: 40px;
 background: rgba(53, 17, 101, 0.4);
 }
 .why-card-2{
-width: 590px;
-height: 225px;
+width: 725px;
+height: 240px;
 grid-column: span 2;
 display: flex;
 flex-direction: column;
@@ -273,8 +272,8 @@ border-radius: 40px;
 background: rgba(53, 17, 101, 0.4);
 }
 .why-card-4{
-  width: 590px;
-height: 325px;
+  width: 690px;
+height: 225px;
 grid-column: span 2;
 display: flex;
 flex-direction: column;
@@ -286,15 +285,15 @@ border-radius: 40px;
 background: rgba(53, 17, 101, 0.4);
 }
 #why-card-5{
-  width: 380px;
-height: 273px;
+  width: 330px;
+height: 240px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 16;
 padding: 40px;
-grid-row: span 2;
+grid-row: span 1;
    border-radius: 40px;
 background: rgba(53, 17, 101, 0.4);
 
@@ -308,8 +307,11 @@ background: rgba(53, 17, 101, 0.4);
   .why-grid{
     grid-template-columns: 1fr;
   }
-  .why-card-1 , .why-card-2 , .why-card-4 {
+  .why-card-1 , .why-card-2  {
     width: 380px;
   }
-  .why-card-4{}
+  .why-card-4{
+    width: 380px;
+    height: 300px;
+  }
 }
