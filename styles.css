@@ -437,6 +437,7 @@ rgba(26, 11, 46, 1);
 }
             /* /* /*FOOTER CONTAINER   */
 .footer{
+  color: white;
   background: url("./assets/footer-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
