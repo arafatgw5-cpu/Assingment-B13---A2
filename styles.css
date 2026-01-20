@@ -161,3 +161,55 @@ height: 24px;
  }
   
 }
+
+
+                  /* section ABOUT */
+
+.about-section{
+  color: white;
+  background-color: #1A0B2E;
+  padding: 80px 20px;
+}
+.about-content{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-content .h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+.about-content .p1{
+  margin-bottom: 50px;
+}
+.sub-text{
+  margin-bottom: 100px;
+}
+.card-container{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  padding-top: 50px;
+ text-align: center;
+}
+.about-card img{
+  width: 180px;
+  margin-bottom: 12px;
+  
+}
+.about-card p{
+  font-weight: 400;
+}
+
+
+             /* RESPONSIVE ABOUT */
+@media screen and (max-width:576px) {
+  .card-container{
+    grid-template-columns: repeat(2,1fr);
+    width: 400px;
+    gap: 30px;
+  }
+  
+}
